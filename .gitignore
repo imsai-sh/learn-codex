@@ -3,3 +3,11 @@
 fibonacci.py
 fibonacci_result.txt
 hello.py
+
+# TypeScript port
+ts/node_modules/
+ts/dist/
+ts/.env
+
+
+.claude/worktrees

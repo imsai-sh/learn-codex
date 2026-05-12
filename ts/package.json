@@ -1,0 +1,29 @@
+{
+  "name": "learn-codex-ts",
+  "version": "0.1.0",
+  "description": "Codex 风格 Agent Harness 教学项目的 TypeScript 版本（每一步示例都对应 src/examples 中的 Rust 实现）。",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "step01": "tsx examples/step01/step01.ts",
+    "step02": "tsx examples/step02/step02.ts",
+    "step03": "tsx examples/step03/step03.ts",
+    "step04": "tsx examples/step04/step04.ts",
+    "step05": "tsx examples/step05/step05.ts",
+    "step06": "tsx examples/step06/step06.ts",
+    "step07": "tsx examples/step07/step07.ts",
+    "step08": "tsx examples/step08/step08.ts",
+    "step09": "tsx examples/step09/step09.ts",
+    "main": "tsx main.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "undici": "^6.19.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}
